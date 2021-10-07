@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE overlay SYSTEM "chrome://zotero-jabbr/locale/overlay.dtd">
+<overlay
+  id="zotero-jabbr"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+  <script src="chrome://zotero-jabbr/content/scripts/zotero-jabbr.js" />
+  <script src="chrome://zotero/content/include.js" />
+
+  <menupopup id="zotero-itemmenu">
+    <menu id="zotero-itemmenu-jabbr-menu" label="&jabbr-menu-label;">
+      <menupopup id="zotero-itemmenu-jabbr-menupopup">
+        <menuitem
+          id="zotero-itemmenu-jabbr-update"
+          label="&jabbr-menu-update-label;"
+          oncommand="Zotero.JAbbr.updateSelectedItems()"
+        />
+      </menupopup>
+    </menu>
+  </menupopup>
+</overlay>

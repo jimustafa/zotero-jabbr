@@ -1,0 +1,5 @@
+'*.js':
+  - eslint
+  - prettier
+'*.{rdf,xml,xul}':
+  - prettier

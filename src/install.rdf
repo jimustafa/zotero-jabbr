@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RDF
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+>
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>zotero-jabbr@github.com</em:id>
+    <em:name>Zotero Journal Abbreviations Manager</em:name>
+    <em:version>0.1.0</em:version>
+    <em:description>
+      Manage journal abbreviations for journal articles
+    </em:description>
+    <em:creator>Jamal I. Mustafa</em:creator>
+    <em:homepageURL>https://github.com/jimustafa/zotero-jabbr</em:homepageURL>
+    <em:updateURL>
+      https://raw.githubusercontent.com/jimustafa/zotero-jabbr/main/update.rdf
+    </em:updateURL>
+    <em:type>2</em:type>
+    <em:targetApplication>
+      <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>5.0</em:minVersion>
+        <em:maxVersion>5.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

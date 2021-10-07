@@ -1,0 +1,5 @@
+content zotero-jabbr          chrome/content/zotero-jabbr/
+locale  zotero-jabbr  en-US   chrome/locale/en-US/
+skin    zotero-jabbr  default chrome/skin/default/zotero-jabbr/
+
+overlay chrome://zotero/content/zoteroPane.xul chrome://zotero-jabbr/content/overlay.xul
