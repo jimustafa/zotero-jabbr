@@ -1,6 +1,6 @@
 # Zotero JAbbr
 
-This Zotero extension is used for managing the `Journal Abbreviation` field of journal articles.
+This Zotero extension is used for managing the `Journal Abbr` field of journal articles.
 
 ## How to Install
 
@@ -9,6 +9,14 @@ This Zotero extension is used for managing the `Journal Abbreviation` field of j
 2. In Zotero, open the `Tools → Add-ons` menu
 3. Drag the downloaded `.xpi` file to the `Add-ons` popup window
     - Alternatively, click on the :gear: at the top-right of the `Add-ons` popup window, choose `Install Add-on From File…`, and select the downloaded `.xpi` file
+
+## How to Use
+
+1. Select a number of items in the library
+2. Open the context menu (`right-click` one of the selected items) and choose `Manage Journal Abbreviations → Update Journal Abbreviations`
+
+Note: This will only update the `Journal Abbr` field if it is already empty;
+  nothing will be overwritten.
 
 ## Acknowledgments
 
