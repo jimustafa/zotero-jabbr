@@ -6,7 +6,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>zotero-jabbr@github.com</em:id>
     <em:name>Zotero Journal Abbreviations Manager</em:name>
-    <em:version>0.1.0</em:version>
+    <em:version>0.2.0</em:version>
     <em:description>
       Manage journal abbreviations for journal articles
     </em:description>
@@ -20,7 +20,7 @@
       <Description>
         <em:id>zotero@chnm.gmu.edu</em:id>
         <em:minVersion>5.0</em:minVersion>
-        <em:maxVersion>5.*</em:maxVersion>
+        <em:maxVersion>6.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
