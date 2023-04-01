@@ -5,9 +5,34 @@
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^1.1.0",
+    "@release-it/bumper": "^4.0.2",
     "eslint": "^7.32.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "release-it": "^15.10.0"
+  },
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": false,
+      "tag": false,
+      "commit": false,
+      "push": false
+    },
+    "github": {
+      "release": false
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/bumper": {
+        "out": [
+          "Makefile",
+          "./src/install.rdf",
+          "./src/update.rdf"
+        ]
+      }
+    }
   }
 }
