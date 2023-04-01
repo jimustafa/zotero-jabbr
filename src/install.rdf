@@ -6,14 +6,14 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>zotero-jabbr@github.com</em:id>
     <em:name>Zotero Journal Abbreviations Manager</em:name>
-    <em:version>0.2.0</em:version>
+    <em:version>0.2.1</em:version>
     <em:description>
       Manage journal abbreviations for journal articles
     </em:description>
     <em:creator>Jamal I. Mustafa</em:creator>
     <em:homepageURL>https://github.com/jimustafa/zotero-jabbr</em:homepageURL>
     <em:updateURL>
-      https://raw.githubusercontent.com/jimustafa/zotero-jabbr/main/update.rdf
+      https://raw.githubusercontent.com/jimustafa/zotero-jabbr/main/src/update.rdf
     </em:updateURL>
     <em:type>2</em:type>
     <em:targetApplication>

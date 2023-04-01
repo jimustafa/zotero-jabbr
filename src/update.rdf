@@ -3,19 +3,19 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:em="http://www.mozilla.org/2004/em-rdf#"
 >
-  <rdf:Description rdf:about="urn:mozilla:extension:schnetter@gmail.com">
+  <rdf:Description rdf:about="urn:mozilla:extension:zotero-jabber@github.com">
     <em:updates>
       <rdf:Seq>
         <rdf:li>
           <rdf:Description>
-            <em:version>0.2.0</em:version>
+            <em:version>0.2.1</em:version>
             <em:targetApplication>
               <rdf:Description>
                 <em:id>zotero@chnm.gmu.edu</em:id>
                 <em:minVersion>5.0</em:minVersion>
                 <em:maxVersion>6.*</em:maxVersion>
                 <em:updateLink>
-                  https://github.com/jimustafa/zotero-jabbr/releases/download/v0.2.0/zotero-jabbr-0.2.0.xpi
+                  https://github.com/jimustafa/zotero-jabbr/releases/download/v0.2.1/zotero-jabbr-0.2.1.xpi
                 </em:updateLink>
               </rdf:Description>
             </em:targetApplication>
